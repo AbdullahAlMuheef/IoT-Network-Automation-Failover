@@ -8,9 +8,9 @@ ROUTER_IP = "10.10.20.48"
 router = {
     'device_type': 'cisco_ios',
     'host': ROUTER_IP,
-    'username':  '', # Change it according to the user information
-    'password': '',  # Change it according to the user information
-    'secret': ''     # Change it according to the user information
+    'username':  'XXXX', # Change it according to the user information
+    'password': 'XXXX',  # Change it according to the user information
+    'secret': 'XXXX'     # Change it according to the user information
 }
 
 failover_active = False
