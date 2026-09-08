@@ -8,9 +8,9 @@ ROUTER_IP = "10.10.20.48"
 router = {
     'device_type': 'cisco_ios',
     'host': ROUTER_IP,
-    'username': 'developer',
-    'password': 'C1sco12345',
-    'secret': 'C1sco12345'
+    'username': os.environ.get('ROUTER_USER', 'developer'),
+    'password': os.environ.get('ROUTER_PASS', 'C1sco12345'),
+    'secret': os.environ.get('ROUTER_SECRET', 'C1sco12345')
 }
 
 failover_active = False
