@@ -19,10 +19,12 @@ In a factory, if a server rack overheats, the network switch might fail. Instead
 4. When the temperature drops below 70°C, it restores the "Normal" state.
 
 ## Live Proof
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](images/PythonTriggers.png)
+
 *Screenshot showing the Python script triggering the router change.*
 
-![Screenshot 2](screenshot2.png)
+![Screenshot 2](images/RouterTerminal.png)
+
 *Screenshot showing the live router terminal updating the interface description.*
 
 ## Future Enhancements
@@ -31,4 +33,4 @@ In a factory, if a server rack overheats, the network switch might fail. Instead
 - Add MQTT or AWS IoT Core for cloud integration.
 
 ## Author
-[Your Name] - Fresh Graduate Computer Engineer, IoT Specialization, CCNA Certified.
+Abdullah Al Muheef - Fresh Graduate Computer Engineer, IoT Specialization, CCNA Certified.
